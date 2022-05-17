@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TrailerFlix</title>
+</head>
+<body>
+    <section class="conteudo-introducao">
+        <header class="container">
+            <div class="conteudos">
+                <div class="logo">
+                    <H1>TrailerFlix</H1>
+                </div>
+                <nav class="nav-conteudos">
+                    <ul>
+                        <li><button onclick="inicio()" type="button">Inicio</button></li>
+                        <li><button type="button">Séries</button></li>
+                        <li><button type="button">Filmes</button></li>
+                        <li><button type="button">Animes</button></li>
+                        <li><button type="button">Minha Lista</button></li>
+
+                    </ul>
+                </nav>
+                <input id="botao-mobile" type="button" value="Navegar">
+            </div>
+            <nav class="nav-config">
+                <div class="procurar">
+                    <div class="procurar-img">
+                        <button type="button" onclick="botaoPesquisar()"><img src="assents/image/lupa.png" alt="lupa"></button>
+                    </div>
+                    <input type="search" name="" id="btnProcurar" placeholder="Procurar">
+                </div>
+                <div class="icone-notificacao">
+                    <img src="assents/image/notificacao.png" alt="notificacao">
+                </div>
+                <div class="usuario-foto">
+                    <img src="assents/image/perfil-foto.jpg" alt="user">
+                </div>
+            </nav>
+        </header>
+
+        <div class="conteudo-destaque">
+            <h2>The Witcher</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dignissimos.</P>
+            <div class="destaque-info">
+                <div class="info-botoes">
+                    <img src="assents/image/botao-play.png" alt="botao play">
+                    <input type="button" value="Assistir">
+                </div>
+                <div class="info-botoes" id="utlm">
+                    <img  src="assents/image/sinal-de-informacao.png" alt="mais informação">
+                    <input type="button" value="Mais informação">
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container-principal">
+        <section class="container-minha-lista">
+            <h3>Top 10 Mais vistos</h3>
+
+            <div class='wrap'>
+                <div class="carousel">
+                
+                </div>
+            </div>
+
+            <div class="video">
+                
+            </div>
+        </section>
+    </main>
+    <script src="js/carousel.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
